@@ -25,9 +25,9 @@ print("""
             `~,   .                     ./
                 . _                  .-PP
                   '`--._,dd###pp='''
-                """)
+       """, end="")
 
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')  # очистит экран
 sleep(1)
 
@@ -55,10 +55,10 @@ print("""
             -. `b,,    .                . '
               '-\\   .,               .-`
                   '-:b~\\\\_,oddq==--'
-              """)
+        """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""
@@ -85,10 +85,10 @@ print("""
             -.         #M: .    .       .-
               ` .         .,         .-
                   '-.-~ooHH__,,v~--`
-      """)
+      """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""
@@ -115,10 +115,10 @@ print("""
            `.                &M'..  .   ..'
               ' .             ._     .-
                   '-. -voboo#&:,-.-`
-       """)
+      """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""
@@ -145,10 +145,10 @@ print("""
             -.                    ,M'-  ..'
               ` .                .. ..-`
                   '-. .\\ooooboo<^.-`
-                  """)
+      """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""
@@ -175,10 +175,10 @@ print("""
            `.                         ,/\\ '
               '-..                  _.-
                   '---.._\\o,oov+--''
-                  """)
+         """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""
@@ -205,10 +205,10 @@ print("""
             -                           ,-'
               ' .                    .-
                  ```^==\\_.,,,ov--\\-`
-                 """)
+        """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""        
@@ -235,10 +235,10 @@ print("""
            ` .                          ..'
                - .                  ..-
                   '`*#d##c.._\\v----`
-                  """)
+      """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""
@@ -265,10 +265,10 @@ print("""
            `-                           ..'
               ' .                    .-
                   '`*##HMH##:__,-.-`
-                  """)
+      """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""         
@@ -295,10 +295,10 @@ print("""
            `..                          ..'
               `  .                   .-
                   '`'#HHMMMMM#<>..-`
-                  """)
+      """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""   
@@ -325,10 +325,10 @@ print("""
            `.                           .-
               '- .                   .-`
                   '`\\bqHMMMMMMHHb--`
-                  """)
+         """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""        
@@ -355,10 +355,10 @@ print("""
            ` .                          . '
               ` .                    . `
                   '--##HH#HMMMHH#''`
-                  """)
+        """, end="")
 
 sleep(1)
-print('\u001b[4A')
+print('\u001b[100A')
 print('\033[2J')
 
 print("""         
@@ -385,6 +385,6 @@ print("""
            ` .               -          .-
               ` .                    .-
                   ' -==pHMMH##HH#'''
-                  """)
+        """, end="")
 
 print("\u001b[0m")
