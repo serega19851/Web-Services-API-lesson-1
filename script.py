@@ -2,14 +2,11 @@ import requests
 
 
 def main():
-    params = [{"nTq": "", "lang": "en"}, {"nTq": "", "lang": "en"},
-              {"MnTq": "", "lang": "ru"}]
-
     cities = ['london', 'svo', 'череповец']
 
-    for i in range(len(cities)):
-        response = requests.get("https://wttr.in/{}".format(cities[i]),
-                                params=params[i])
+    for city in cities:
+        response = requests.get("https://wttr.in/{}".format(city),
+                                params={"MnTq": "", "lang": "ru"})
         response.raise_for_status()
         print(response.text)
 
